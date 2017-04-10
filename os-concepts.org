@@ -1,33 +1,223 @@
 * OVERVIEW
 ** Introduction
+*** What Operating System Do
+*** Computer-System Organization 
+*** Computer-System Architecture
+*** Operating-System Structure
+*** Operating-System Operations
+*** Process Management
+*** Memory Management
+*** Storage Management
+*** Protection and Security
+*** Distributed Systems
+*** Special-Purpose Systems
+*** Computing Environments
+*** Open-Source Operating Systems
+*** Summary
 ** System Structures
+*** Operating-System Services
+*** User Operating-System Interface
+*** System Calls
+*** Types of System Calls
+*** System Programs
+*** Operating-System Design and Implementation
+*** Operating-System Structure
+*** Virtual Machines
+*** Operating-System Debugging
+*** Operating-System Generation
+*** System Boot
+*** Summary
 * PROCESS MANAGEMENT
 ** Process Concept
+*** Process Concept
+*** Process Scheduling
+*** Operations on Processes
+*** Interprocess Communication
+*** Examples of IPC Systems
+*** Communication in Client-Server Systems
+*** Summary
 ** Multithreaded Programming
+*** Overview 
+*** Multithreading Models
+*** Thread Libraries
+*** Threading Issues
+*** Operating-System Examples
+*** Summary
 ** Process Scheduling
+*** Basic Concepts
+*** Scheduling Certeria
+*** Scheduling Algorithms
+*** Thread Scheduling
+*** Multiple-Processor Scheduling
+*** Operating System Examples
+*** Algorithm Evaluation
+*** Summary
 * PROCESS COORDINATION
 ** Synchronization
+*** Background
+*** The Critical-Section Problem
+*** Peterson's Solution
+*** Synchronization Hardware
+*** Semaphores
+*** Monitors
+*** Synchronization Examples
+*** Atomic Transactions
+*** Summary
 ** Deadlocks
+*** System Model
+*** Deadlock Characterization
+*** Method of Handling Deadlocks
+*** Deadlock Prevention
+*** Deadlock Avoidance
+*** Deadlock Detection
+*** Recovery from Deadlock 
+*** Summary
 * MEMORY MANAGEMENT
 ** Memory Management Strategies
+*** Background 
+*** Swapping
+*** Contiguous Memory Allocation
+*** Paging
+*** Structure of Page Table
+*** Segmentation
+*** Example : The Intel Pentium 
+*** Summary
 ** Virtual-Memory Management
+*** Background 
+*** Demand Paging
+*** Copy-on-Write
+*** Page Replacement
+*** Allocation of Frames
+*** Thrashing
+*** Memory-Mapped Files
+*** Allocating Kernel Memory
+*** Other Considerations
+*** Operating-System Examples
+*** Summary
 * STORAGE MANAGEMENT
 ** File System
+*** File Concept
+*** Access Method
+*** Directory and Disk Structure
+*** File-System Mounting
+*** File Sharing
+*** Protection 
+*** Summary
 ** Implementing File Systems
+*** File-System Structure
+*** File-System Implementation 
+*** Directory Implementation
+*** Allocation Methods
+*** Free-Space Management
+*** Efficiency and Performance 
+*** Recovery
+*** NFS
+*** Example : The WAFL File System
+*** Summary
 ** Secondary-Storage Structure
+*** Overview of Mass-Storage Structure
+*** Disk Structure
+*** Disk Attachment
+*** Disk Scheduling
+*** Disk Management
+*** Swap-Space Management
+*** RAID Structure 
+*** Stable-Storage Implementation
+*** Tertiary-Storage Structure
+*** Summary
 ** I/O Systems
+*** Overview 
+*** I/O Hardware
+*** Application I/O Interface
+*** Kernel I/O Subsystem
+*** Transforming I/O Requests to Hardware Operations
+*** STREAMS
+*** Performace 
+*** Summary
 * PROTECTION AND SECURITY
 ** System Protection
+*** Goals of Protection 
+*** Principles of Protection
+*** Domains of Protection
+*** Access Matrix
+*** Implementation of Access Matrix 
+*** Access Control 
+*** Revocation of Access Rights
+*** Capability-Based Protection
+*** Language-Based Protection
+*** Summary
 ** System Security
+*** The Security Problem
+*** Program Threats
+*** System and Network Threats
+*** Cryptography as a Security Tool
+*** User Authentication
+*** Implementation Security Defences
+*** Firewalling to Protect Systems and Networks
+*** Computer-Security Classifications
+*** An Example : Windows XP
+*** Summary
 * DISTRIBUTED SYSTEMS
 ** Distributed Operating Systems
+*** Motovation
+*** Types of Network-based Operating Systems
+*** Network Structure
+*** Network Topology
+*** Communication Structure
+*** Communication Protocols
+*** Robustness
+*** Design Issues
+*** An Example : Networking
+*** Summary
 ** Distributed File Systems
+*** Background
+*** Naming and Transparency
+*** Remote File Access
+*** Stateful versus Stateless Service
+*** File Replication
+*** An Example : AFS 
+*** Summary
 ** Distributed Synchronization
+*** Event Ordering
+*** Mutual Exclusion 
+*** Atomicity
+*** Concurrency Control
+*** Deadlock Handling
+*** Election Algorithms
+*** Reaching Agreement
+*** Summary
 * SPECIAL PURPOSE SYSTEM
 ** Real-Time Systems
+*** Overview 
+*** System Characteristics
+*** Features of Real-Time Kernels
+*** Implementating Real-Time Operating Systems
+*** Real-Time CPU Scheduling
+*** An Example : VxWorks 5.x
+*** Summary
 ** Multimedia Systems
+*** What is Multimedia
+*** Compression
+*** Requirements of Multimedia Kernels
+*** CPU Scheduling
+*** Disk Scheduling
+*** Network Management
+*** An Example : CineBlitz 
+*** Summary
 * CASE STUDIES
 ** The Linux System
+*** Linux History
+*** Design Principles
+*** Kernel Modules
+*** Process Management
+*** Scheduling
+*** Memory Management
+*** File Systems
+*** Input and Output
+*** Interprocess Communication
+*** Network Structure
+*** Security
+*** Summary
 ** Windows XP
 ** Influential Operating Systems
 * APPENDICES
